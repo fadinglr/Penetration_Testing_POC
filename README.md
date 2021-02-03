@@ -191,6 +191,8 @@
 - [骑士CMS assign_resume_tpl远程代码执行分析](./books/骑士CMS%20远程代码执行分析%20-%20Panda.pdf)-[原文地址](https://www.cnpanda.net/codeaudit/827.html)
 - [kibana由原型污染导致RCE的漏洞（CVE-2019-7609）](https://github.com/mpgn/CVE-2019-7609)-[YouTube相关报告](https://www.youtube.com/watch?v=KVDOIFeRaPQ)
 - [cve-2019-17558-apache solr velocity 注入远程命令执行漏洞 ](https://github.com/SDNDTeam/CVE-2019-17558_Solr_Vul_Tool)
+- [Weblogic Server（CVE-2021-2109 ）远程代码执行漏洞](./books/Weblogic%20Server（CVE-2021-2109%20）远程代码执行漏洞复现.pdf)-[原文地址](https://mp.weixin.qq.com/s/kEi1s3Ki-h7jjdO7gyDsaw)
+- [辰光PHP客服系统源码3.6 前台 getshell-0day](./books/辰光PHP客服系统源码3.620%前台20%getshell-0day.pdf)|[原文地址](https://mp.weixin.qq.com/s/jWqhZYXuBQ2kfpvnWsfeXA)
 
 ## <span id="head5"> 提权辅助相关</span>
 
@@ -268,6 +270,7 @@
 - [CVE-2020-1337-exploit-Windows 7/8/10上Print Spooler组件漏洞修复后的绕过](https://github.com/math1as/CVE-2020-1337-exploit/)|[cve-2020-1337-poc](https://github.com/sailay1996/cve-2020-1337-poc)
 - [CVE-2020-1472: NetLogon特权提升漏洞（接管域控制器）](https://github.com/VoidSec/CVE-2020-1472)|[CVE-2020-1472 .NET版本的，可以编译成独立EXE文件，可以尝试webshell执行](https://github.com/nccgroup/nccfsas/tree/main/Tools/SharpZeroLogon/SharpZeroLogon)|[同类型脚本](https://github.com/SecuraBV/CVE-2020-1472)|[同类型脚本二](https://github.com/dirkjanm/CVE-2020-1472)|[同类型脚本三](https://github.com/risksense/zerologon)|[同类型脚本4](https://github.com/bb00/zer0dump)
 - [awesome-browser-exploit-浏览器漏洞集合](https://github.com/Escapingbug/awesome-browser-exploit)
+- [【Linux提权】CVE-2021-3156-SUDO缓冲区溢出漏洞](https://github.com/mr-r3b00t/CVE-2021-3156)
 
 
 ## <span id="head7"> tools-小工具集版本合</span>
@@ -309,6 +312,7 @@
 - [GitHack-.git泄露利用脚本](https://github.com/lijiejie/GitHack)
 - [GitHacker---比GitHack更好用的git泄露利用脚本](https://github.com/WangYihang/GitHacker)
 - [SVN源代码泄露全版本Dump源码](https://github.com/admintony/svnExploit)
+- [dumpall-多种泄漏形式，一种利用方式【支持.git源代码泄漏.svn源代码泄漏.DS_Store信息泄漏目录列出信息泄漏】](https://github.com/0xHJK/dumpall)
 - [多进程批量网站备份文件扫描](https://github.com/sry309/ihoneyBakFileScan)
 - [Empire](https://github.com/BC-SECURITY/Empire/)|相关文章:[后渗透测试神器Empire详解](https://mp.weixin.qq.com/s/xCtkoIwVomx5f8hVSoGKpA)
 - [FOFA Pro view 是一款FOFA Pro 资产展示浏览器插件，目前兼容 Chrome、Firefox、Opera](https://github.com/0nise/fofa_view)
@@ -555,6 +559,13 @@
 - [Web-Fuzzing-Box - Web 模糊测试字典与一些Payloads，主要包含：弱口令暴力破解、目录以及文件枚举、Web漏洞](https://github.com/gh0stkey/Web-Fuzzing-Box)
 - [emp3r0r-Linux后渗透框架](https://github.com/jm33-m0/emp3r0r)
 - [dnstunnel-一款多会话的二进制DNS隧道远控](https://github.com/bigBestWay/dnstunnel)
+- [CVE-2020-17519-Apache Flink 目录遍历漏洞批量检测](https://github.com/B1anda0/CVE-2020-17519)
+- [Internal-Monologue-通过 SSPI 调⽤ NTLM 身份验证，通过协商使⽤预定义 challenge 降级为 NetNTLMv1，获取到 NetNTLMv1 hash](https://github.com/eladshamir/Internal-Monologue)
+- [domainTools-内网域渗透小工具](https://github.com/SkewwG/domainTools)
+- [HackTools(如当)-红队浏览器插件](https://github.com/s7ckTeam/HackTools)
+- [CVE-2020-36179-Jackson-databind SSRF&RCE](https://github.com/Al1ex/CVE-2020-36179)
+- [leaky-paths-一份有关major web CVEs, known juicy APIs, misconfigurations这类的特别应用路径字典收集](https://github.com/ayoubfathi/leaky-paths)
+- [QuJing(曲境)-曲境是一个xposed模块，可实现在PC浏览器上动态监控（hook）函数调用和查看堆栈信息，及反射调用（invoke）等功能](https://github.com/Mocha-L/QuJing)
 
 ## <span id="head8"> 文章/书籍/教程相关</span>
 
@@ -762,6 +773,12 @@
 -  [Intranet_Penetration_Tips-内网渗透TIPS](https://github.com/Ridter/Intranet_Penetration_Tips)
 -  [TimelineSec-2020年漏洞复现大全](https://github.com/TimelineSec/2020-Vulnerabilities)
 -  [Kerberos协议到票据伪造](./books/Kerberos协议到票据伪造.pdf)-[原文地址](https://www.zjun.info/2020/kerberos.html)
+-  [抓取HASH的10001种方法](./books/抓取HASH的10001种方法.pdf)-[原文地址](https://mp.weixin.qq.com/s/6mwms9LtLE6cK0ukpoSMmg)
+-  [C#免杀之自实现DNS服务器传输shellcode](./books/C#免杀之自实现DNS服务器传输shellcode.pdf)-[原文地址](https://xz.aliyun.com/t/8921)
+-  [ThinkPHP v3.2.X（SQL注入&文件读取）反序列化POP链](./books/ThinkPHP%20v3.2.X%EF%BC%88SQL%E6%B3%A8%E5%85%A5&%E6%96%87%E4%BB%B6%E8%AF%BB%E5%8F%96%EF%BC%89%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96POP%E9%93%BE.pdf)-[原文地址](https://mp.weixin.qq.com/s/S3Un1EM-cftFXr8hxG4qfA)
+-  [exp-hub-漏洞复现、批量脚本](https://github.com/ybdt/exp-hub)
+-  [sign-逆向app的sign等参数的思路和体验, 安卓逆向, 安卓破解, 逆向app,爬虫解密](https://github.com/darbra/sign)
+-  [Report_Public-DVPNET 公开漏洞知识库](https://github.com/DVPNET/Report_Public)
 
 
 ## <span id="head9"> 说明</span>
